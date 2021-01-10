@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, } from 'reactstrap';
+import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, NavLink } from 'reactstrap';
 
 
 class Header extends Component {
@@ -22,11 +22,26 @@ class Header extends Component {
     render() {
         return (
             <React.Fragment>
-                <Navbar dark sticky="top" expand="md">
+                <Navbar dark fixed="top" expand="md">
                     <div className="container">
-                        <NavbarBrand className="mr-auto" href="/"><img src="/assets/fwdlogos/Heartbeat Melodies WHT logo.png" height="30" width="30"/></NavbarBrand>
+                        <NavbarBrand className="mr-auto" href="/"><img src="/fwdlogos/Heartbeat Melodies WHT logo.png" height="30" width="30" alt=''/></NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
-                        <Collapse isOpen={this.state.isNavOpen} navbar></Collapse>
+                        <Collapse isOpen={this.state.isNavOpen} navbar>
+                            <Nav navbar className="ml-auto">
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/home">Home</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/home">About</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/home">Services</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/home">Order</NavLink>
+                                </NavItem>
+                            </Nav>
+                        </Collapse>
                     </div>
                 </Navbar>
             </React.Fragment>
