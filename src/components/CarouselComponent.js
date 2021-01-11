@@ -16,7 +16,7 @@ const TESTIMONIES = [
     },
     {
         src: './img/berlangas.JPG',
-        header: "The songs created for our two little girls by Heartbeat Melodies will be cherished for a lifetime, and not just by us, but by grandparents, siblings, and even our girls as they grow older. Such a sweet way to be able to continuously listen to their little heartbeats over and over again and remember the blessing these girls are, by having it put to a song uniquely written for each one of them. I could not recommend Heartbeat Melodies enough!",
+        header: '',
         caption: "The songs created for our two little girls by Heartbeat Melodies will be cherished for a lifetime, and not just by us, but by grandparents, siblings, and even our girls as they grow older. Such a sweet way to be able to continuously listen to their little heartbeats over and over again and remember the blessing these girls are, by having it put to a song uniquely written for each one of them. I could not recommend Heartbeat Melodies enough!",
         key: '3'
     }
