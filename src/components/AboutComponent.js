@@ -5,8 +5,9 @@ import Carousel from './CarouselComponent.js';
 class About extends Component {
     render() {
         return(
-        <div className="bgImg">
-            <React.Fragment>
+        
+        <React.Fragment>
+            <div className="bgImg">
                 <Jumbotron fluid>
                         <div className="d-flex justify-content-center mt-auto">
                             <img src="fwdlogos/Heartbeat Melodies WHT.png" alt="Heartbeat Melodies" width= "50%" />
@@ -42,19 +43,19 @@ class About extends Component {
                         </CardBody>
                     </Card>
 
-                    <Carousel className="overlay" />
+                    <Carousel />
 
                     
                 </Container>
 
                 
-            
-            </React.Fragment>
+            </div>
+        </React.Fragment>
 
 
                 
             
-        </div>
+        
         );
     };
 }
