@@ -6,6 +6,10 @@ h1, h2, h3 {
   font-family: "Open Sans", sans-serif;
 }
 
+h1 {
+  color: white;
+}
+
 h2 {
   color: #ffffff;
 }
@@ -19,6 +23,10 @@ header h2 {
 }
 
 p   {
+  color: white;
+}
+
+Label {
   color: white;
 }
 
@@ -86,7 +94,6 @@ p   {
 .bgImg {
   background-attachment: fixed;
   background-repeat: no-repeat;
-  height: 100vh;
   width: 100%;
   background-size: cover;
   background-image: url(./img/background2.jpg);
