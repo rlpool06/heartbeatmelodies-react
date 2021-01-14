@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Jumbotron } from 'reactstrap';
+import { Jumbotron, Card, CardBody, Row, Col, Container } from 'reactstrap';
+import ServicesCard from './ServicesCardComponent.js';
 
 class Services extends Component {
     render() {
@@ -10,6 +11,10 @@ class Services extends Component {
                             <img src="fwdlogos/Heartbeat Melodies WHT.png" alt="Heartbeat Melodies" width= "50%" />
                         </div>
                 </Jumbotron>
+
+                <Card>
+                    <ServicesCard />
+                </Card>
             </div>
         );
     };

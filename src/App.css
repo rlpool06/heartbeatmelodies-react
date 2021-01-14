@@ -34,6 +34,10 @@ Label {
   color: white;
 }
 
+.carouselCaption {
+  font-size: 1.8vmax;
+}
+
 .row-content {
   padding: 30px;
   border-bottom: 1px ridge; border-color: #e392fa8f;
@@ -101,8 +105,10 @@ Label {
 
 .overlay {
   background: rgba(0,0,0,1);
+  width: auto;
 }
 
 .overlay img {
   opacity: 0.8;
+  width: fit-cont
 }

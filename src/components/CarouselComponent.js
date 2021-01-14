@@ -23,9 +23,9 @@ const TESTIMONIES = [
 ];
 
 const Carousel = () => (
-    <Row className='mt-5 mb-5'>
+    <Row className='mt-5 pb-5'>
         <Col md={8} className="mx-auto">
-            <UncontrolledCarousel items={TESTIMONIES} />
+            <UncontrolledCarousel items={TESTIMONIES} className="overlay carouselCaption"/>
         </Col>
     </Row>
 );
