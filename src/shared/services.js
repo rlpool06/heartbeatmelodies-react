@@ -7,7 +7,7 @@ export const SERVICES = [
 
     },
     {
-        image: './img/paper-plane-regular-solid.svg',
+        image: './img/paper-plane-regular.svg',
         title: 'SEND IT IN',
         caption: `Fill out our order form and send in your audio sample.  We'll get to work on creating your song!  Once we finish a first draft, we'll send it to you for review and final touches.`,
         id: '1'

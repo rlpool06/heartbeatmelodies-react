@@ -20,7 +20,7 @@ class Main extends Component {
                     <Route path='/about' component={About}/>
                     <Route path='/services' component={Services} />
                     <Route path='/order' component={Order}/>
-                    <Redirect to='home' />
+                    <Redirect to='/home' />
                 </Switch>
             </div>
         );
