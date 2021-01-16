@@ -1,23 +1,24 @@
 import React, { Component } from 'react';
-import { Jumbotron, Card, CardBody, Row, Col, Container } from 'reactstrap';
-import ServicesCard from './ServicesCardComponent.js';
+import { Jumbotron, Card, CardImg, CardBody, CardTitle, CardText } from 'reactstrap';
+import { SERVICES } from '../shared/services';
 
 class Services extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            services: SERVICES
+        }
+    }
+
     render() {
         return(
-            <div className="bgImg">
-                <Jumbotron fluid>
-                        <div className="container-fluid d-flex justify-content-center mt-auto">
-                            <img src="fwdlogos/Heartbeat Melodies WHT.png" alt="Heartbeat Melodies" width= "50%" />
-                        </div>
-                </Jumbotron>
-
-                <Card>
-                    <ServicesCard />
-                </Card>
+            <div className="container">
+                
             </div>
-        );
-    };
+        )
+    }
 }
+
+
 
 export default Services;
