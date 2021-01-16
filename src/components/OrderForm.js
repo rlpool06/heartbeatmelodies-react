@@ -106,7 +106,7 @@ class OrderForm extends Component {
                         <FormGroup row>
                             <Label htmlFor="feedback" md={2}>Baby's Heart Rate</Label>
                             <Col xs={3}>
-                                <Input type="text" name="feedback" id="feedback" />
+                                <Input type="text" name="feedback" id="feedback" placeholder="Ex. 142bpm" />
                             </Col>
                         </FormGroup>
                         <FormGroup row>
