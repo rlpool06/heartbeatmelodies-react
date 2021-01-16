@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Jumbotron, Card, CardImg, CardBody, CardTitle, CardText, CardDeck, Row, Col } from 'reactstrap';
+import { Jumbotron, Card, CardImg, CardBody, CardTitle, CardText, CardDeck, Container, Row, Col } from 'reactstrap';
 import { SERVICES } from '../shared/services';
 import ReactPlayer from 'react-player';
 
@@ -46,7 +46,7 @@ class Services extends Component {
                         </div>
                 </Jumbotron>
 
-                <div className="container mt-3">
+                <Container>
                     <Card className="card-body-background2">
                         <CardBody>
                             <Row className="row-content">
@@ -94,7 +94,7 @@ class Services extends Component {
                         </Col>
                     </Row>
 
-                </div>
+                </Container>
 
             </div>
         )

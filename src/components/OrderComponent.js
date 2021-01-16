@@ -13,7 +13,7 @@ class Order extends Component {
                         </div>
                 </Jumbotron>
 
-                <Container className="p-5">
+                <Container className="pb-5">
                     <Card className="card-body-background2">
                         <CardBody>
                             <Row >
